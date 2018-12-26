@@ -1,0 +1,191 @@
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\Administrator.WKST1>cd
+C:\Users\Administrator.WKST1
+
+C:\Users\Administrator.WKST1>ld
+'ld' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator.WKST1>cd Desktop
+
+C:\Users\Administrator.WKST1\Desktop>cd "PI Scripts"
+
+C:\Users\Administrator.WKST1\Desktop\PI Scripts>list
+'list' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator.WKST1\Desktop\PI Scripts>get_ap_data_from_pi.pl
+
+C:\Users\Administrator.WKST1\Desktop\PI Scripts>perl get_ap_data_from_pi.pl
+'perl' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator.WKST1\Desktop\PI Scripts>perl -v
+'perl' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator.WKST1\Desktop\PI Scripts>perl -v
+'perl' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator.WKST1\Desktop\PI Scripts>perl -v
+'perl' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator.WKST1\Desktop\PI Scripts>perl -v
+'perl' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator.WKST1\Desktop\PI Scripts>perl -v
+'perl' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator.WKST1\Desktop\PI Scripts>get_ap_data_from_pi.pl
+Can't locate object method "now" via package "DateTime" (perhaps you forgot to l
+oad "DateTime"?) at C:\Users\Administrator.WKST1\Desktop\PI Scripts\get_ap_data_
+from_pi.pl line 57.
+
+C:\Users\Administrator.WKST1\Desktop\PI Scripts>get_ap_data_from_pi.pl
+Can't call method "strftime" on an undefined value at C:\Users\Administrator.WKS
+T1\Desktop\PI Scripts\get_ap_data_from_pi.pl line 59.
+
+C:\Users\Administrator.WKST1\Desktop\PI Scripts>get_ap_data_from_pi.pl
+Found 4 APs
+
+
+  <entity timestamp="" dtoType="accessPointsDTO" type="AccessPoints" url="https:
+//198.18.134.53/webacs/api/v1/data/AccessPoints/16818821">
+    <accessPointsDTO displayName="16818821" id="16818821">
+      <adminStatus>ENABLE</adminStatus>
+      <bootVersion>15.2.4.0</bootVersion>
+      <clientCount>0</clientCount>
+      <clientCount_2_4GHz>0</clientCount_2_4GHz>
+      <clientCount_5GHz>0</clientCount_5GHz>
+      <controllerIpAddress>198.18.1.200</controllerIpAddress>
+      <controllerName>BLD-WLC5508</controllerName>
+      <countryCode>US</countryCode>
+      <ethernetMac>bc:16:65:09:61:38</ethernetMac>
+      <hreapEnabled>false</hreapEnabled>
+      <ipAddress>10.11.15.213</ipAddress>
+      <location>default location</location>
+      <lwappUpTime>126920902</lwappUpTime>
+      <macAddress>3c:08:f6:ae:68:a0</macAddress>
+      <model>AIR-CAP3702I-A-K9</model>
+      <name>BLD-AP3</name>
+      <serialNumber>FTX175074U1</serialNumber>
+      <softwareVersion>8.5.103.0</softwareVersion>
+      <status>MINOR</status>
+      <type>AP3700I</type>
+      <upTime>768759402</upTime>
+    </accessPointsDTO>
+  </entity>
+  <entity timestamp="" dtoType="accessPointsDTO" type="AccessPoints" url="https:
+//198.18.134.53/webacs/api/v1/data/AccessPoints/16818823">
+    <accessPointsDTO displayName="16818823" id="16818823">
+      <adminStatus>ENABLE</adminStatus>
+      <bootVersion>15.3.2.4</bootVersion>
+      <clientCount>1</clientCount>
+      <clientCount_2_4GHz>0</clientCount_2_4GHz>
+      <clientCount_5GHz>1</clientCount_5GHz>
+      <controllerIpAddress>198.18.1.200</controllerIpAddress>
+      <controllerName>BLD-WLC5508</controllerName>
+      <countryCode>US</countryCode>
+      <ethernetMac>24:e9:b3:61:80:e9</ethernetMac>
+      <hreapEnabled>false</hreapEnabled>
+      <ipAddress>10.11.15.204</ipAddress>
+      <location>default location</location>
+      <lwappUpTime>126962202</lwappUpTime>
+      <macAddress>5c:a4:8a:d7:8d:d0</macAddress>
+      <model>AIR-CAP3502I-A-K9</model>
+      <name>BLD-AP2</name>
+      <serialNumber>FTX1749K0PY</serialNumber>
+      <softwareVersion>8.5.103.0</softwareVersion>
+      <status>MINOR</status>
+      <type>AP3500I</type>
+      <upTime>749447702</upTime>
+    </accessPointsDTO>
+  </entity>
+  <entity timestamp="" dtoType="accessPointsDTO" type="AccessPoints" url="https:
+//198.18.134.53/webacs/api/v1/data/AccessPoints/16818825">
+    <accessPointsDTO displayName="16818825" id="16818825">
+      <adminStatus>ENABLE</adminStatus>
+      <bootVersion>15.3.2.4</bootVersion>
+      <clientCount>0</clientCount>
+      <clientCount_2_4GHz>0</clientCount_2_4GHz>
+      <clientCount_5GHz>0</clientCount_5GHz>
+      <controllerIpAddress>198.18.1.200</controllerIpAddress>
+      <controllerName>BLD-WLC5508</controllerName>
+      <countryCode>US</countryCode>
+      <ethernetMac>24:e9:b3:61:80:ef</ethernetMac>
+      <hreapEnabled>false</hreapEnabled>
+      <ipAddress>10.11.15.203</ipAddress>
+      <location>default location</location>
+      <lwappUpTime>126962102</lwappUpTime>
+      <macAddress>5c:a4:8a:d7:98:60</macAddress>
+      <model>AIR-CAP3502I-A-K9</model>
+      <name>BLD-AP1</name>
+      <serialNumber>FTX1749K0Q1</serialNumber>
+      <softwareVersion>8.5.103.0</softwareVersion>
+      <status>MINOR</status>
+      <type>AP3500I</type>
+      <upTime>774673002</upTime>
+    </accessPointsDTO>
+  </entity>
+  <entity timestamp="" dtoType="accessPointsDTO" type="AccessPoints" url="https:
+//198.18.134.53/webacs/api/v1/data/AccessPoints/16818827">
+    <accessPointsDTO displayName="16818827" id="16818827">
+      <adminStatus>ENABLE</adminStatus>
+      <bootVersion>15.2.4.0</bootVersion>
+      <clientCount>0</clientCount>
+      <clientCount_2_4GHz>0</clientCount_2_4GHz>
+      <clientCount_5GHz>0</clientCount_5GHz>
+      <controllerIpAddress>198.18.1.200</controllerIpAddress>
+      <controllerName>BLD-WLC5508</controllerName>
+      <countryCode>US</countryCode>
+      <ethernetMac>18:8b:9d:31:ea:94</ethernetMac>
+      <hreapEnabled>false</hreapEnabled>
+      <ipAddress>10.11.15.214</ipAddress>
+      <location>default location</location>
+      <lwappUpTime>126919102</lwappUpTime>
+      <macAddress>18:8b:9d:58:81:80</macAddress>
+      <model>AIR-CAP3702E-A-K9</model>
+      <name>AP-PARIS-PLUG13471</name>
+      <serialNumber>FTX1927S1K7</serialNumber>
+      <softwareVersion>8.5.103.0</softwareVersion>
+      <status>MINOR</status>
+      <type>AP3700E</type>
+      <upTime>761120402</upTime>
+    </accessPointsDTO>
+  </entity>
+
+C:\Users\Administrator.WKST1\Desktop\PI Scripts>get_client_data_from_pi.pl
+Found 1 Associated clients
+
+
+  <entity timestamp="2018-12-22 22:44:28 UTC" dtoType="clientsDTO" type="Clients
+" url="https://198.18.134.53/webacs/api/v1/data/Clients/17482465">
+    <clientsDTO displayName="17482465" id="17482465">
+      <apMacAddress>5c:a4:8a:d7:8d:d0</apMacAddress>
+      <associationTime>1545515956497</associationTime>
+      <clientInterface>client</clientInterface>
+      <connectionType>LIGHTWEIGHTWIRELESS</connectionType>
+      <deviceIpAddress>198.18.1.200</deviceIpAddress>
+      <deviceName>BLD-WLC5508</deviceName>
+      <deviceType>Apple-iPad</deviceType>
+      <ipAddress>10.11.100.47</ipAddress>
+      <location>SJ &gt; BLD4 &gt; Floor1</location>
+      <macAddress>80:d6:05:55:61:ad</macAddress>
+      <protocol>DOT11N5GHZ</protocol>
+      <securityPolicyStatus>PASSED</securityPolicyStatus>
+      <ssid>BLD-secure</ssid>
+      <status>ASSOCIATED</status>
+      <updateTime>1545518556302</updateTime>
+      <userName>swong</userName>
+      <vendor>Apple, Inc.</vendor>
+      <vlanId>100</vlanId>
+    </clientsDTO>
+  </entity>
+
+C:\Users\Administrator.WKST1\Desktop\PI Scripts>
